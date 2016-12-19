@@ -28,3 +28,10 @@ $toolkit-font-stack: $helvetica-regular;
     background: $white;
   }
 }
+
+// make sure body is full height so that background color changes work
+html, body{
+  height: auto !important;
+  min-height: 100%;
+  height: 100%;
+}
